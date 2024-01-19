@@ -9,42 +9,49 @@
 	<body>
 		<header>
 			<a href="#" class="logo">Slobodan.</a>
-
 			<nav>
 				<a href="./index.html">Home</a>
-				<a href="./about.html">About</a>
-				<a href="./contact.html">Contact</a>
+				<a href="./about.html">About Me</a>
+				<a href="./contact.html">Contact Me</a>
 			</nav>
 		</header>
 		<main>
+			<h1>Contact me</h1>
 			<form
 				action="https://formspree.io/f/xknlaejr"
 				method="POST"
 				target="_blank"
 			>
-				<label>
-					Your name:
+				<div class="form-row">
+					<label> Your name: </label>
 					<input type="name" name="name" />
-				</label>
-				<label>
-					Your email:
+				</div>
+				<div class="form-row">
+					<label> Your email: </label>
 					<input type="email" name="email" />
-				</label>
-				<label>
-					Your message:
-					<textarea name="message"></textarea>
-				</label>
-				<button class="btn" type="submit">Send</button>
+				</div>
+				<div class="form-row">
+					<label> Your message: </label><textarea name="message"></textarea>
+				</div>
+				<button type="submit">Send</button>
 			</form>
 		</main>
 		<footer>
-			<a href="https://www.facebook.com/" target="_blank">
+			<a
+				href="https://www.facebook.com/slobodan.bogdanovic.9/"
+				target="_blank"
+				class="footer-social-container"
+			>
 				<img src="./image/facebook.svg" alt="facebook" />
 				<span>Facebook</span>
 			</a>
 			<h4>&copy; 2024 SBogdanovic</h4>
 
-			<a href="https://www.instagram.com/" target="_blank">
+			<a
+				href="https://www.instagram.com/slobo.bogdanovic89/"
+				target="_blank"
+				class="footer-social-container"
+			>
 				<img src="./image/instagram.svg" alt="instagram" />
 				<span>instagram</span>
 			</a>
